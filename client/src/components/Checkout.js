@@ -197,7 +197,7 @@ const ConfirmationModal = ({ orderProcessing, cartItems, closeModal, handleSubmi
         <Modal
             accessibilityCloseLabel="close"
             accessibilityModalLabel="Confirm your order"
-            headong="Confirm your order"
+            heading="Confirm your order"
             onDismiss={closeModal}
             footer={
                 <Box
