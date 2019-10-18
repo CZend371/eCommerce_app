@@ -21,7 +21,7 @@ class App extends Component {
       const response = await strapi.request("POST", "/graphql", {
         data: {
           query: `query {
-            brands{
+            brands {
               _id
               name
               description
@@ -32,7 +32,7 @@ class App extends Component {
           }`
         }
       });
-      // console.log(response);
+      console.log(response);
       this.setState({
         brands: response.data.brands,
         loadingBrands: false
@@ -41,6 +41,7 @@ class App extends Component {
       console.error(err);
       this.setState({ loadingBrands: false });
     }
+    console.log(this.state.brands);
   }
 
   handleChange = ({ value }) => {
