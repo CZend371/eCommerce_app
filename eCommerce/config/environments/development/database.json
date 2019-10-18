@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "database": "eCommerce",
+        "host": "ecommcluster-shard-00-00-hoy5a.mongodb.net",
+        "srv": false,
+        "port": 27017,
+        "username": "CZend371",
+        "password": "Spidey18"
+      },
+      "options": {
+        "authenticationDatabase": "",
+        "ssl": true
+      }
+    }
+  }
+}
