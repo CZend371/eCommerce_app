@@ -5,12 +5,12 @@
       "connector": "strapi-hook-mongoose",
       "settings": {
         "client": "mongo",
-        "host": "@ecommcluster-hoy5a.mongodb.net",
+        "host": "ecommcluster-hoy5a.mongodb.net",
         "srv": true,
         "port": 27017,
         "database": "server",
         "username": "CZend371",
-        "password": "Spidey18!"
+        "password": "Spidey18"
       },
       "options": {
         "authenticationDatabase": "",
