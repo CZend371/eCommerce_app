@@ -10,12 +10,10 @@
         "srv": "${process.env.DATABASE_SRV}",
         "database": "${process.env.DATABASE_NAME}",
         "username": "${process.env.DATABASE_USERNAME}",
-        "password": "${process.env.DATABASE_PASSWORD}",
-        "ssl": "${process.env.DATABASE_SSL || true}"
+        "password": "${process.env.DATABASE_PASSWORD}"
       },
       "options": {
-        "ssl": true,
-        "authenticationDatabase": "${process.env.DATABASE_AUTHENTICATION_DATABASE || ''}"
+        "ssl": true
       }
     }
   }
