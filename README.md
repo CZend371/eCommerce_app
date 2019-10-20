@@ -7,8 +7,8 @@ With the help of a Udemy course I was able to build an eCommerce website called 
 
 # This app was built using:
 
-React.js
-Strapi
-Stripe
-Sendgrid
+React.js,
+Strapi,
+Stripe,
+Sendgrid,
 Graphql
