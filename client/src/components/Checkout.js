@@ -42,7 +42,7 @@ class _CheckoutForm extends React.Component {
     };
 
     handleSubmitOrder = async () => {
-        const { cartItems, city, address, postalCode } = this.state;
+        const { cartItems, city, address, postalCode, confirmationEmailAddress } = this.state;
         const amount = calculateAmount(cartItems);
 
         // process order
@@ -59,6 +59,15 @@ class _CheckoutForm extends React.Component {
                 address,
                 token
             });
+            await strapi.request("POST", "/email", {
+                data: {
+                    to: confirmationEmailAddress,
+                    subject: `Order Confirmation - BrewMeister ${new Date(Date.now())}`,
+                    text: "Your order has been processed",
+                    html: <bold>Expect your order to arrive in 2-3 shipping days</bold>
+                }
+            });
+
             this.setState({ orderProcessing: false, modal: false });
             clearCart();
             this.showToast("Your order has been successfully submitted!", true);

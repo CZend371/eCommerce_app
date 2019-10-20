@@ -52,3 +52,9 @@ form input {
     transition: all 150ms ease;
   }
   
+  /* Media queries */
+  @media (max-width: 400px) {
+.main-title {
+  display: none;
+}
+  } 
