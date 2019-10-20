@@ -1,0 +1,19 @@
+{
+  "name": "ecommerce_app",
+  "version": "1.0.0",
+  "description": "ecommapp",
+  "main": "client",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CZend371/eCommerce_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CZend371/eCommerce_app/issues"
+  },
+  "homepage": "https://github.com/CZend371/eCommerce_app#readme"
+}
