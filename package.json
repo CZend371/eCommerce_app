@@ -7,9 +7,7 @@
     "start": "npm run client",
     "start:prod": "cd eCommerce && yarn develop",
     "client": "cd client && npm run start",
-    "install": "cd client && npm install",
-    "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build"
+    "install": "cd client && npm install"
   },
   "repository": {
     "type": "git",
