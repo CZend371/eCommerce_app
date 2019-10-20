@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/CZend371/eCommerce_app/issues"
   },
-  "homepage": "https://github.com/CZend371/eCommerce_app#readme"
+  "homepage": "https://github.com/CZend371/eCommerce_app#readme",
+  "engines": {
+    "node": "11.10.0"
+  }
 }
