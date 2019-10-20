@@ -2,7 +2,7 @@
   "name": "ecommerce_app",
   "version": "1.0.0",
   "description": "ecommapp",
-  "main": "client",
+  "main": "ecommerce",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "client": "cd client && npm run start",
