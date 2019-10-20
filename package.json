@@ -4,7 +4,8 @@
   "description": "ecommapp",
   "main": "eCommerce",
   "scripts": {
-    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start": "npm run client",
+    "start:prod": "cd eCommerce && yarn develop",
     "client": "cd client && npm run start",
     "install": "cd client && npm install",
     "build": "cd client && npm run build",
