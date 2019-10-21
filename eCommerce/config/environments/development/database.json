@@ -5,7 +5,7 @@
       "connector": "strapi-hook-mongoose",
       "settings": {
         "database": "eCommerce",
-        "host": "ecommcluster-shard-00-00-hoy5a.mongodb.net",
+        "host": "ecommcluster-shard-00-00-hoy5a.mongodb.net:27017,ecommcluster-shard-00-01-hoy5a.mongodb.net:27017,ecommcluster-shard-00-02-hoy5a.mongodb.net:27017/test?ssl=true&replicaSet=ECommCluster-shard-0&authSource=admin&retryWrites=true&w=majority",
         "srv": false,
         "port": 27017,
         "username": "CZend371",
