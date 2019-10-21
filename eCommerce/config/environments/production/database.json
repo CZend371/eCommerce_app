@@ -5,16 +5,17 @@
       "connector": "strapi-hook-mongoose",
       "settings": {
         "client": "mongo",
-        "database": "eCommerce",
-        "host": "ecommcluster-shard-00-00-hoy5a.mongodb.net:27017,ecommcluster-shard-00-01-hoy5a.mongodb.net:27017,ecommcluster-shard-00-02-hoy5a.mongodb.net:27017/test?ssl=true&replicaSet=ECommCluster-shard-0&authSource=admin&retryWrites=true&w=majority",
-        "srv": false,
-        "port": 27017,
-        "username": "CZend371",
-        "password": "Spidey18"
+        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
+        "port": "${process.env.DATABASE_PORT || 27017}",
+        "srv": "${process.env.DATABASE_SRV || false}",
+        "database": "${process.env.DATABASE_NAME || 'strapi'}",
+        "username": "${process.env.DATABASE_USERNAME || ''}",
+        "password": "${process.env.DATABASE_PASSWORD || ''}",
+        "ssl": "${process.env.DATABASE_SSL || false}"
       },
       "options": {
-        "authenticationDatabase": "",
-        "ssl": true
+        "ssl": "${process.env.DATABASE_SSL || false}",
+        "authenticationDatabase": "${process.env.DATABASE_AUTHENTICATION_DATABASE || ''}"
       }
     }
   }
