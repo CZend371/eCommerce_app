@@ -4,14 +4,10 @@
     "default": {
       "connector": "strapi-hook-mongoose",
       "settings": {
-        "client": "mongo",
-        "host": "${process.env.DATABASE_HOST}",
-        "port": "${process.env.DATABASE_PORT}",
-        "database": "${process.env.DATABASE_NAME}",
-        "username": "${process.env.DATABASE_USERNAME}",
-        "password": "${process.env.DATABASE_PASSWORD}"
+        "uri": "mongodb://CZend371:Spidey18@ecommcluster-shard-00-00-hoy5a.mongodb.net:27017,ecommcluster-shard-00-01-hoy5a.mongodb.net:27017,ecommcluster-shard-00-02-hoy5a.mongodb.net:27017/test?ssl=true&replicaSet=ECommCluster-shard-0&authSource=admin&retryWrites=true&w=majority"
       },
       "options": {
+        "authenticationDatabase": "admin",
         "ssl": true
       }
     }
