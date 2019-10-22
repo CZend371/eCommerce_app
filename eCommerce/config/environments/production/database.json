@@ -4,7 +4,7 @@
     "default": {
       "connector": "strapi-hook-mongoose",
       "settings": {
-        "uri": "mongodb://CristZ371:Webhead371@ecommcluster-shard-00-00-hoy5a.mongodb.net:27017,ecommcluster-shard-00-01-hoy5a.mongodb.net:27017,ecommcluster-shard-00-02-hoy5a.mongodb.net:27017/test?ssl=true&replicaSet=ECommCluster-shard-0&authSource=admin&retryWrites=true&w=majority"
+        "uri": "mongodb://CZend371:Spidey18@ecommcluster-shard-00-00-hoy5a.mongodb.net:27017,ecommcluster-shard-00-01-hoy5a.mongodb.net:27017,ecommcluster-shard-00-02-hoy5a.mongodb.net:27017/test?ssl=true&replicaSet=ECommCluster-shard-0&authSource=admin&retryWrites=true&w=majority"
       },
       "options": {
         "authenticationDatabase": "admin",
