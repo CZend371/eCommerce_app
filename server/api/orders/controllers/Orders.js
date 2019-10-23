@@ -1,12 +1,11 @@
 'use strict';
-const stripe = require('stripe')("sk_test_CRuIAWSyjyaUQHkodFrYg7Jo00moMoym6Z");
+const stripe = require("stripe")("sk_test_CRuIAWSyjyaUQHkodFrYg7Jo00moMoym6Z");
 
 /**
  * Read the documentation () to implement custom controller functions
  */
 
 module.exports = {
-
     create: async ctx => {
         const {
             address,

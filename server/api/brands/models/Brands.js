@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `Brand` model.
+ * Lifecycle callbacks for the `Brands` model.
  */
 
 module.exports = {

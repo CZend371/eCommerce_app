@@ -2,10 +2,10 @@
   "name": "ecommerce_app",
   "version": "1.0.0",
   "description": "ecommapp",
-  "main": "eCommerce",
+  "main": "server",
   "scripts": {
     "start": "npm run client",
-    "start:prod": "cd eCommerce && yarn develop",
+    "start:prod": "cd server && yarn develop",
     "client": "cd client && npm run start",
     "install": "cd client && npm install"
   },

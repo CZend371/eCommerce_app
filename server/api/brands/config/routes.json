@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/brands",
-      "handler": "Brand.find",
+      "handler": "Brands.find",
       "config": {
         "policies": []
       }
@@ -11,7 +11,7 @@
     {
       "method": "GET",
       "path": "/brands/count",
-      "handler": "Brand.count",
+      "handler": "Brands.count",
       "config": {
         "policies": []
       }
@@ -19,7 +19,7 @@
     {
       "method": "GET",
       "path": "/brands/:id",
-      "handler": "Brand.findOne",
+      "handler": "Brands.findOne",
       "config": {
         "policies": []
       }
@@ -27,7 +27,7 @@
     {
       "method": "POST",
       "path": "/brands",
-      "handler": "Brand.create",
+      "handler": "Brands.create",
       "config": {
         "policies": []
       }
@@ -35,7 +35,7 @@
     {
       "method": "PUT",
       "path": "/brands/:id",
-      "handler": "Brand.update",
+      "handler": "Brands.update",
       "config": {
         "policies": []
       }
@@ -43,7 +43,7 @@
     {
       "method": "DELETE",
       "path": "/brands/:id",
-      "handler": "Brand.delete",
+      "handler": "Brands.delete",
       "config": {
         "policies": []
       }

@@ -1,12 +1,15 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "brews",
   "info": {
-    "name": "brand",
+    "name": "brews",
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "name": {
@@ -20,9 +23,12 @@
       "via": "related",
       "plugin": "upload"
     },
-    "brews": {
-      "collection": "brews",
-      "via": "brand"
+    "price": {
+      "type": "decimal"
+    },
+    "brand": {
+      "model": "brands",
+      "via": "brews"
     }
   }
 }
