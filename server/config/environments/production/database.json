@@ -9,7 +9,7 @@
       },
       "options": {
         "ssl": true,
-        "authenticationDatabase": "${process.env.DATABASE_AUTHENTICATION_DATABASE || 'admin'}"
+        "authenticationDatabase": "admin"
       }
     }
   }
