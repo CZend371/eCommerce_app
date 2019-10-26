@@ -5,7 +5,7 @@
   "main": "server",
   "scripts": {
     "start": "npm run client",
-    "start:prod": "cd server && yarn develop",
+    "start:prod": "cd server && yarn start",
     "client": "cd client && npm run start",
     "install": "cd client && npm install"
   },
